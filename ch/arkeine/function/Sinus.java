@@ -4,7 +4,7 @@ public class Sinus implements Function{
 
 	@Override
 	public double getYValue(double xValue) {
-		return Math.sin(xValue);
+		return Math.sin(xValue / 1000);
 	}
 
 }
