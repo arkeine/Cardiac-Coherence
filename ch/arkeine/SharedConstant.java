@@ -1,4 +1,4 @@
-package ch.arkeine.gui;
+package ch.arkeine;
 
 public class SharedConstant {
 
