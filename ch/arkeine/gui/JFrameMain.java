@@ -8,10 +8,11 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 import javax.swing.BorderFactory;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.border.Border;
 
-import ch.arkeine.function.ToothSaws;
+import ch.arkeine.function.implementation.ToothSaws;
 
 @SuppressWarnings("serial")
 public class JFrameMain extends JFrame {
@@ -77,8 +78,8 @@ public class JFrameMain extends JFrame {
 		setSize(100, 600);
 		setUndecorated(true);
 		setAlwaysOnTop(true);
+		setResizable(false);
 		setVisible(true);
-
 	}
 
 	/* ============================================ */
